@@ -1,0 +1,71 @@
+iframe {
+            width:  100%
+            height: 600px;
+            display: initial;
+}
+
+
+
+
+html, body {
+            margin: 0;c
+            padding: 0;
+            width: 100%;
+            height: 100%;
+           
+}
+
+
+[data-testid="stHeader"]{
+display: none;
+}
+
+
+.main .block-container {
+            padding-top: 0rem;
+            padding-bottom: 1rem;
+        }
+
+.stTextInput, .stTextArea {
+            margin: 0;
+            padding: 0;
+        }
+
+[data-testid="stVerticalBlock"]{
+gap:0rem;
+
+}
+
+[data-testid="stTextInput"]{
+
+   display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: #f9f9f9;
+    gap: 10px; /* Spacing between elements */
+
+}
+
+
+
+.st-bt {
+padding: 0rem;
+}   
+
+.st-bs {
+padding: 0rem;
+}   
+.st-br {
+padding: 0rem;
+}   
+.st-bq {
+padding: 0rem;
+}   
+
+.main .block-container {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }   
+
