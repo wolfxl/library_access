@@ -239,7 +239,7 @@ if address:
    
 
 # Display the map
-st_folium(map_dfw, use_container_width=True, height=500)
+st_folium(map_dfw, use_container_width=True, height=450)
 
 
 
