@@ -5,8 +5,7 @@ requests
 numpy
 pandas
 scipy
-setuptools
-wheel
+python-dotenv
 dotenv
 folium
 geopandas
