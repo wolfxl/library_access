@@ -1,7 +1,4 @@
 import streamlit as st
-import geopandas as gpd
-import folium
-from streamlit_folium import st_folium
 from shapely.geometry import Point
 from geopy.distance import geodesic
 from geopy.geocoders import Nominatim
@@ -13,6 +10,9 @@ import pandas as pd
 from scipy.stats import percentileofscore
 from dotenv import load_dotenv, find_dotenv
 import os
+import geopandas as gpd
+import folium
+from streamlit_folium import st_folium
 
 load_dotenv(find_dotenv())
 api_key = os.getenv('MAPBOX_ACCESS_TOKEN')
