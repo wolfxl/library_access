@@ -1,5 +1,4 @@
 import streamlit as st
-from shapely.geometry import Point
 from geopy.distance import geodesic
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
