@@ -1,0 +1,12 @@
+streamlit
+geopandas
+folium
+streamlit_folium
+shapely
+geopy
+requests
+numpy
+pandas
+scipy
+dotenv
+os
